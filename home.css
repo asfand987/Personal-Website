@@ -1,84 +1,128 @@
-#homePage {
-    background-image: url("wallpaper.png");
-    position: relative;
-    height: 1000px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
 }
 
+
+/*---------------------------------------------*/
+
+header {
+    background-image: url("wallpaper.png");
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+ font-family: 'opensans-bold', sans-serif;
+  font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+h5 { font-size: 18px; line-height: 30px; }
+
+p { margin: 0 0 30px 0; }
+p img { margin: 0; }
+p.lead {
+   font: 19px/36px 'opensans-light', sans-serif;
+   margin-bottom: 18px;
+}
+
+/*--------------------------------------------- */
 /* navigation. */
 ul#nav {
     /*min-height: 15px;*/
     width: auto;
     /* center align the menu */
     text-align: center;
- }
- ul#nav li {
-    position: relative;
-    list-style: none;
-    /*height: 15px;*/
-    display: inline-block;
+}
+
+ul#nav li {
+   position: relative;
+   list-style: none;
+   /*height: 15px;*/
+   display: inline-block;
      /*border-bottom:1px dotted;*/
  }
  
- /* Links */
- ul#nav li a {
+/* Links */
+ul#nav li a {
  
- /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
  
-    display: inline-block;
-    padding: 8px 13px;
-    line-height: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: left;
-    color: #313131;
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: left;
+  color: #FFFFF0;
  
- }
+}
+
+ul#nav li a:hover {
+ transform: scale(1.3);
+ border-radius: 50%;
+}
  
- ul#nav li a:hover {
-   transform: scale(1.3);
-   border-radius: 50%;
- }
- 
- ul#nav li a:active {
-   background-color: transparent !important;
-   color: #313131;
- }
+ul#nav li a:active {
+  background-color: transparent !important;
+  color: #FAF0E6;
+}
  
  ul#nav li.current a {
-   color: #313131;
+   color:#FFFFF0;
  }
  
+ /*-----------------------------------------------------*/
 
- .title h1{
-    position: relative;
-    text-align: center;
- }
+.title h1{
+  color: #FAF0E6;
+  font-size: 57px;
+  position: relative;
+  text-align: center;
+}
 
- .title p{
-     position: relative;
-     text-align: center;
- }
- /*-------------------------------------------------------------*/
+.title p{
+  color: #FAF0E6;
+  position: relative;
+  text-align: center;
+}
+/*-------------------------------------------------------------*/
 
 
- /*Icons */
+/*Icons */
 
- .icons b {
-    margin: 20px 20px;
-    width: 70px;
-    height: 70px;
-    background-color: #ccc;
-    display: inline-block;
-    border-radius: 24px;
-    box-shadow: 6px 6px 12px rgba(0,0,0,.15),
-                -6px -6px 12px rgba(255,255,255,.1);
-    overflow: hidden;
-    font-size: 28px;
-    transition: .3s linear;
-    position: relative;
- }
+.icons b {
+  margin: 20px 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #ccc;
+  display: inline-block;
+  border-radius: 24px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,.15),
+              -6px -6px 12px rgba(255,255,255,.1);
+  overflow: hidden;
+  font-size: 28px;
+  transition: .3s linear;
+  position: relative;
+}
 
  .icons b:hover {
     transform: scale(1.3);
