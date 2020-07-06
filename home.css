@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe,
+html, body, div, span, object, iframe, ul, li, a, b, c, 
 h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
    margin: 0;
@@ -25,7 +25,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #313131;
+  color: #FFFFF0;
   font-family: 'opensans-bold', sans-serif;
   font-weight: normal;
 }
@@ -39,9 +39,15 @@ h5 { font-size: 18px; line-height: 30px; }
 
 p { margin: 0 0 30px 0; }
 p img { margin: 0; }
-p.lead {
-   font: 19px/36px 'opensans-light', sans-serif;
-   margin-bottom: 18px;
+p {
+  color: #FFFFF0;
+  font: 19px/36px 'opensans-light', sans-serif;
+  margin-bottom: 18px;
+}
+
+ul {
+  color: #FFFFF0;
+  font: 19px/16px 'opensans-light', sans-serif;
 }
 
 /*--------------------------------------------- */
@@ -95,7 +101,7 @@ ul#nav li a:active {
 .title h1{
   color: #FAF0E6;
   line-height: 300px;
-  font-size: 57px;
+  font-size: 70px;
   position: relative;
   text-align: center;
 }
