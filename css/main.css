@@ -26,7 +26,8 @@
 
 
 @media screen and (max-width:959px) {
-    #projects a p{       
-        float: right;
+    #projects img {       
+        height: 350px;
+        width: 450px;
     }
 }
