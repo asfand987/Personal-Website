@@ -24,14 +24,3 @@
     }
 }
 
-@media screen and (max-width:629px) {
-    #profile{
-        background: #2B2B2B;
-        position: relative;
-        height: 7000px;
-        width: 100%;
-        text-align: center;
-        overflow: hidden;
-    }
-}
-

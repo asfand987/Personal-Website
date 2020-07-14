@@ -1,9 +1,8 @@
 #profile {
     background: #2B2B2B;
     position: relative;
-    height: 700px;
-    width: 100%;
-    -webkit-background-size: cover !important;
+    max-width: 100%;
+    height: auto;
     text-align: center;
     overflow: hidden;
 }
@@ -36,4 +35,5 @@
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 30px;
  }
