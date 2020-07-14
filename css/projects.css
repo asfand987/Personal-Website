@@ -1,0 +1,29 @@
+#projects {
+    background: #fff;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#projects h2 {
+    font: 50px/50px 'opensans-bold', sans-serif;
+    color: #32404b;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#projects a {
+    position: relative;
+    font: 'opensans-bold', sans-serif;
+    font-size: 25px;
+    color: #32404b;
+    border-bottom: 1px solid #3997dc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#projects p {
+    margin: 10px;
+}
