@@ -1,0 +1,39 @@
+#profile {
+    background: #2B2B2B;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+#profile .profile-pic {
+    position: relative;
+    margin-top: 60px;
+    width: 260px;
+    height: 260px;
+    padding:1px;
+    border:1px solid #021a40;
+    border-radius: 100%;
+    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#profile h2 {
+    font: 30px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+ }
+
+ #profile p {
+    font: 20px/20px 'opensans-bold', sans-serif;
+    line-height: 30px;
+    color: #7A7A7A;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+ }

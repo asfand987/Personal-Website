@@ -14,10 +14,10 @@ time, mark, audio, video {
 /*---------------------------------------------*/
 
 header {
-    background-image: url("wallpaper.png");
+    background-image: url("../images/wallpaper.png");
     position: relative;
     height: 1000px;
-    min-height: 500px;
+    min-height: 900px;
     width: 100%;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -113,6 +113,8 @@ ul#nav li a:active {
 .title p {
   /*color: #FAF0E6;*/
   color: #A8A8A8;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 0;
   position: relative;
   text-align: center;
