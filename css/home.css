@@ -19,7 +19,6 @@ header {
     height: 1000px;
     min-height: 900px;
     width: 100%;
-    -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
 }

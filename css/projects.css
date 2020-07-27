@@ -30,6 +30,14 @@
 }
 
 #projects video {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+#projects img {
+    width: 80%;
+    height: auto;
     margin-bottom: 50px;
 }
 
