@@ -43,12 +43,18 @@
 
 /*Personal Projects ---------------------------------------------------------------*/
 
-.Personal {
+#personalProjects {
     background: #ebeeee;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
 }
 
 .Personal h2 {
-    margin-top: 10px;
+    font: 50px/50px 'opensans-bold', sans-serif;
+    margin-top: 30px;
 }
 .Covid-Tracker {
     margin: 50px;
