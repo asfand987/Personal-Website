@@ -44,11 +44,6 @@
     padding: 0;
 }
 
-body {
-    background-color: #333;
-    color: #fff;
-    font-family: Roboto;
-}
 
 .container {
     width: 500px;
@@ -56,7 +51,7 @@ body {
     padding: 20px;
 }
 
-li {
+.container li {
     position: relative;
     list-style: none;
     margin: 50px 0;
@@ -64,7 +59,7 @@ li {
     text-transform: uppercase;
 }
 
-li:before {
+.container li:before {
     content: "";
     position: absolute;
     top: calc(100% + 10px);
@@ -75,7 +70,7 @@ li:before {
     border-radius: 1000px;
 }
 
-li:after {
+.container li:after {
     content: "";
     position: absolute;
     top: calc(100% + 10px);
@@ -89,43 +84,82 @@ li:after {
     animation-fill-mode: forwards;
 }
 
-li.html:after {
-    animation-name: html;
+.container li.java:after {
+    animation-name: java;
 }
 
-
-@keyframes html {
+@keyframes java {
     to {
-        width: 90%;
+        width: 70%;
     }
 }
 
-li.css:after {
+.container li.cpp:after {
+    animation-name: cpp;
+}
+
+@keyframes cpp {
+    to {
+        width: 40%;
+    }
+}
+
+.container li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 65%;
+    }
+}
+
+.container li.css:after {
     animation-name: css;
 }
 
 @keyframes css {
     to {
-        width: 80%;
+        width: 50%;
     }
 }
 
-li.js:after {
+.container li.js:after {
     animation-name: js;
 }
 
 @keyframes js {
     to {
-        width: 75%;
+        width: 30%;
     }
 }
 
-li.ng:after {
-    animation-name: ng;
+.container li.php:after {
+    animation-name: php;
 }
 
-@keyframes ng {
+@keyframes php {
     to {
-        width: 60%;
+        width: 25%;
+    }
+}
+
+.container li.react:after {
+    animation-name: react;
+}
+
+@keyframes react {
+    to {
+        width: 25%;
+    }
+}
+
+.container li.scala:after {
+    animation-name: scala;
+}
+
+@keyframes scala {
+    to {
+        width: 20%;
     }
 }
