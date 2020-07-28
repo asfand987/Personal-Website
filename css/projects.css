@@ -1,5 +1,6 @@
 #projects {
-    background: #fff;
+    /*background: #fff;*/
+    background: #29648A;
     position: relative;
     max-width: 100%;
     height: auto;
@@ -9,22 +10,25 @@
 
 #projects h2 {
     font: 50px/50px 'opensans-bold', sans-serif;
-    color: #32404b;
+    color: #D1E8E2;
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
 
 #projects a {
     position: relative;
     font: 'opensans-bold', sans-serif;
     font-size: 25px;
-    color: #32404b;
+    /*color: #32404b;*/
+    color: #D1E8E2;
     border-bottom: 1px solid #3997dc;
     text-decoration: none;
     background-color: transparent;
 }
 
 #projects p {
+    font: 'opensans-bold', sans-serif;
     margin-top: 30px;
     margin: 10px;
 }
@@ -33,18 +37,25 @@
     width: 80%;
     height: auto;
     margin-bottom: 50px;
+    margin: 0 auto;
+	border: 5px solid;
 }
 
 #projects img {
     width: 80%;
     height: auto;
     margin-bottom: 50px;
+    outline-style: solid;
+}
+
+.MappingTechnologies {
+    margin-bottom: 50px;
 }
 
 /*Personal Projects ---------------------------------------------------------------*/
 
 #personalProjects {
-    background: #ebeeee;
+    background: #D1E8E2;
     position: relative;
     max-width: 100%;
     height: auto;
@@ -75,18 +86,15 @@
 
 #personProjects p {
     text-align: center;
+    font: 'opensans-bold', sans-serif;
     margin-top: 30px;
     margin: 10px;
-}
-
-#projects video {
-    width: 80%;
-    height: auto;
-    margin-bottom: 50px;
+    color: #2F4454;
 }
 
 #personProjects img {
     width: 80%;
     height: auto;
     margin-bottom: 50px;
+    outline-style: solid;
 }
