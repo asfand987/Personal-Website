@@ -51,11 +51,42 @@
     text-align: center;
     overflow: hidden;
 }
-
-.Personal h2 {
-    font: 50px/50px 'opensans-bold', sans-serif;
-    margin-top: 30px;
+.personal {
+    text-align: center;
 }
-.Covid-Tracker {
-    margin: 50px;
+
+#personProjects h2 {
+    font: 50px/50px 'opensans-bold', sans-serif;
+    color: #32404b;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#personProjects a {
+    position: relative;
+    font: 'opensans-bold', sans-serif;
+    font-size: 25px;
+    color: #32404b;
+    border-bottom: 1px solid #3997dc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#personProjects p {
+    text-align: center;
+    margin-top: 30px;
+    margin: 10px;
+}
+
+#projects video {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+#personProjects img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
 }
