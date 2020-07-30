@@ -1,0 +1,111 @@
+#contact {
+    background: #191919;
+    padding-top: 60px;
+ }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    outline: none;
+    border: 0;
+    color: #647373;
+    background: #D3D9D9;
+  }
+
+  input[type="text"],  select {
+    display: block;
+    padding: 18px 15px;
+    margin: 0 0 20px 0;
+    border: 0;
+    outline: none;
+    min-width: 225px;
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 2px;
+    color: #647373;
+    background: #D3D9D9;
+}
+  
+#contact h2 {
+    margin-bottom: 20px;
+    font: 35px/35px 'opensans-bold', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#contact label {
+    font: 20px/24px 'opensans-bold', sans-serif;
+    margin:25px 0;
+    color: #EBEEEE;
+    display: inline-block;
+
+    width: 26%;
+}
+
+#contact span {
+  color: #11ABB0;
+}
+
+  /* Style the submit button with a specific background color etc */
+#contact button.submit {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background: #0D0D0D;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.button, .button:visited, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  font: 16px/30px 'opensans-bold', sans-serif;
+  background: #11ABB0;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #fff;
+  padding: 12px 20px;
+  margin-bottom: 18px;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #contact button:hover {
+    background-color: #EBEEEE;
+  }
+
+  #contact textarea {
+    background-color: #373233;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactContainer {
+    border-radius: 5px;
+    background-color: #191919;
+    padding: 20px;
+  }
+
+  .contactContainer input  {
+    background-color: #373233;
+  }
+

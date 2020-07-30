@@ -10,7 +10,7 @@
 
 #projects h2 {
     font: 50px/50px 'opensans-bold', sans-serif;
-    color: #D1E8E2;
+    color: #fff2df;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -21,7 +21,7 @@
     font: 'opensans-bold', sans-serif;
     font-size: 25px;
     /*color: #32404b;*/
-    color: #D1E8E2;
+    color: #fff2df;
     border-bottom: 1px solid #3997dc;
     text-decoration: none;
     background-color: transparent;
@@ -30,7 +30,7 @@
 #projects p {
     font: 'opensans-bold', sans-serif;
     margin-top: 30px;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 #projects video {
@@ -54,13 +54,14 @@
 
 /*Personal Projects ---------------------------------------------------------------*/
 
-#personalProjects {
-    background: #D1E8E2;
+#personProjects {
+    background: #ffffff;
     position: relative;
     max-width: 100%;
     height: auto;
     text-align: center;
     overflow: hidden;
+    padding-bottom: 60px;
 }
 .personal {
     text-align: center;
@@ -87,8 +88,8 @@
 #personProjects p {
     text-align: center;
     font: 'opensans-bold', sans-serif;
-    margin-top: 30px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     color: #2F4454;
 }
 
