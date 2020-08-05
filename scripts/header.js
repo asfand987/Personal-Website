@@ -7,26 +7,38 @@ var gitElement = document.getElementById("fab fa-github");//.addEventListener("c
 var linkedinElement = document.getElementById("fab fa-linkedin-in");//.addEventListener("click", scroll);
 var gmailElement = document.getElementById("fab fa-gmail");
 
-homeElement.addEventListener('click', homeHandler); 
-aboutElement.addEventListener('click', aboutHandler); 
-projectsElement.addEventListener('click', projectsHandler); 
-contactElement.addEventListener('click', contactHandler); 
+var downElement = document.getElementById("down");
 
-gitElement.addEventListener('click', homeHandler); 
-linkedinElement.addEventListener('click', aboutHandler); 
-gmailElement.addEventListener('click', projectsHandler); 
+  
+    homeElement.addEventListener('click', homeHandler); 
+    aboutElement.addEventListener('click', aboutHandler); 
+    projectsElement.addEventListener('click', projectsHandler); 
+    contactElement.addEventListener('click', contactHandler); 
+
+    downElement.addEventListener('click', downHandler);
 
 
 var homeIsClicked = false; // declare the variable that tracks the state
 var aboutIsClicked = false;
 var projectsIsClicked = false;
 var contactIsClicked = false;
+var downIsClicked = false;
+
+function downHandler(){
+    homeIsClicked = false; // declare the variable that tracks the state
+    aboutIsClicked = false;
+    projectsIsClicked = false;
+    contactIsClicked = false;
+    downIsClicked = true;
+    isClicked();
+}
 
 function homeHandler(){ 
     homeIsClicked = true;
     aboutIsClicked = false;
     projectsIsClicked = false;
     contactIsClicked = false;
+    downIsClicked = false;
     isClicked(); 
 }
 
@@ -35,6 +47,7 @@ function aboutHandler(){
     homeIsClicked = false;
     projectsIsClicked = false;
     contactIsClicked = false;
+    downIsClicked = false;
     isClicked();
 }
   
@@ -43,6 +56,7 @@ function projectsHandler(){
     homeIsClicked = false;
     projectsIsClicked = true;
     contactIsClicked = false;
+    downIsClicked = false;
     isClicked();
 }
 
@@ -51,12 +65,12 @@ function contactHandler(){
     homeIsClicked = false;
     projectsIsClicked = false;
     contactIsClicked = true;
+    downIsClicked = false;
     isClicked();
 }
 
 
 function isClicked() {
-    console.log("Testing");
     if(homeIsClicked) {
         scroll(".title");
     }
@@ -69,6 +83,10 @@ function isClicked() {
     else if(contactIsClicked) {
         scroll(".contactContainer");
     }
+    else if(downIsClicked) {
+        console.log("testing");
+        scroll(".row");
+    }
 }
 
 function scroll(element) {
@@ -80,7 +98,7 @@ function scroll(element) {
 function openInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
-  }
+}
 
 
 
