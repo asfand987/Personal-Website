@@ -31,6 +31,8 @@
     font: 'opensans-bold', sans-serif;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #projects video {
@@ -90,6 +92,8 @@
     font: 'opensans-bold', sans-serif;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     color: #2F4454;
 }
 
@@ -98,4 +102,8 @@
     height: auto;
     margin-bottom: 50px;
     outline-style: solid;
+}
+
+#personProjects .instr {
+    color: #A9A9A9;
 }

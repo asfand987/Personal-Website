@@ -9,7 +9,7 @@
         font-size: 16px;
     }
     .title h1{
-        padding-top: 200px;
+        padding-top: 150px;
         font-size: 60px;
     }
     .title p{
@@ -17,18 +17,7 @@
         margin-top: 0;
         position: relative;
         text-align: center;
-    }
-    .container li:before {
-        content: "";
-        position: absolute;
-        top: calc(100% + 10px);
-        left: 0;
-        width: 90%;
-        height: 15px;
-        background-color: rgba(54, 126, 223, .5);
-        border-radius: 1000px;
-    }
-    
+    }    
 }
 
 

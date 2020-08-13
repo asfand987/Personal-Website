@@ -1,34 +1,34 @@
-var homeElement = document.getElementById("home");//.addEventListener("click", scroll);
-var aboutElement = document.getElementById("about");//.addEventListener("click", scroll);
-var projectsElement = document.getElementById("project");//.addEventListener("click", scroll);
-var contactElement = document.getElementById("con");//.addEventListener("click", scroll);
+let homeElement = document.getElementById("home");//.addEventListener("click", scroll);
+let aboutElement = document.getElementById("about");//.addEventListener("click", scroll);
+let projectsElement = document.getElementById("project");//.addEventListener("click", scroll);
+//let contactElement = document.getElementById("con");//.addEventListener("click", scroll);
 
-var gitElement = document.getElementById("fab fa-github");//.addEventListener("click", scroll);
+/*var gitElement = document.getElementById("fab fa-github");//.addEventListener("click", scroll);
 var linkedinElement = document.getElementById("fab fa-linkedin-in");//.addEventListener("click", scroll);
 var gmailElement = document.getElementById("fab fa-gmail");
-
-var downElement = document.getElementById("down");
+*/
+let downElement = document.getElementById("down");
 
   
-    homeElement.addEventListener('click', homeHandler); 
-    aboutElement.addEventListener('click', aboutHandler); 
-    projectsElement.addEventListener('click', projectsHandler); 
-    contactElement.addEventListener('click', contactHandler); 
+homeElement.addEventListener('click', homeHandler); 
+aboutElement.addEventListener('click', aboutHandler); 
+projectsElement.addEventListener('click', projectsHandler); 
+//contactElement.addEventListener('click', contactHandler); 
 
-    downElement.addEventListener('click', downHandler);
+downElement.addEventListener('click', downHandler);
 
 
-var homeIsClicked = false; // declare the variable that tracks the state
-var aboutIsClicked = false;
-var projectsIsClicked = false;
-var contactIsClicked = false;
-var downIsClicked = false;
+let homeIsClicked = false; // declare the variable that tracks the state
+let aboutIsClicked = false;
+let projectsIsClicked = false;
+//let contactIsClicked = false;
+let downIsClicked = false;
 
 function downHandler(){
     homeIsClicked = false; // declare the variable that tracks the state
     aboutIsClicked = false;
     projectsIsClicked = false;
-    contactIsClicked = false;
+    //contactIsClicked = false;
     downIsClicked = true;
     isClicked();
 }
@@ -37,7 +37,7 @@ function homeHandler(){
     homeIsClicked = true;
     aboutIsClicked = false;
     projectsIsClicked = false;
-    contactIsClicked = false;
+    //contactIsClicked = false;
     downIsClicked = false;
     isClicked(); 
 }
@@ -46,7 +46,7 @@ function aboutHandler(){
     aboutIsClicked = true;
     homeIsClicked = false;
     projectsIsClicked = false;
-    contactIsClicked = false;
+    //contactIsClicked = false;
     downIsClicked = false;
     isClicked();
 }
@@ -55,7 +55,7 @@ function projectsHandler(){
     aboutIsClicked = false;
     homeIsClicked = false;
     projectsIsClicked = true;
-    contactIsClicked = false;
+    //contactIsClicked = false;
     downIsClicked = false;
     isClicked();
 }
@@ -64,7 +64,7 @@ function contactHandler(){
     aboutIsClicked = false;
     homeIsClicked = false;
     projectsIsClicked = false;
-    contactIsClicked = true;
+    //contactIsClicked = true;
     downIsClicked = false;
     isClicked();
 }
@@ -80,9 +80,9 @@ function isClicked() {
     else if(projectsIsClicked) {
         scroll(".uniProjects");
     }
-    else if(contactIsClicked) {
+    /*else if(contactIsClicked) {
         scroll(".contactContainer");
-    }
+    }*/
     else if(downIsClicked) {
         console.log("testing");
         scroll(".row");

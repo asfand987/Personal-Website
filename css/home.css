@@ -14,7 +14,7 @@ time, mark, audio, video {
 /*---------------------------------------------*/
 
 header {
-    background-image: url("../images/wallpaper.png");
+    background-image: url("../images/mountain.png");
     position: relative;
     height: 1000px;
     min-height: 900px;
@@ -102,7 +102,7 @@ ul#nav li a:active {
 
 .title h1 {
   color: #FAF0E6;
-  padding-top: 300px;
+  padding-top: 200px;
   padding-bottom: 30px;
   font-size: 70px;
   position: relative;
@@ -177,7 +177,7 @@ ul#nav li a:active {
   }
   
   #wrapper {
-    padding-bottom: 250px;
+    padding-bottom: 100px;
   }
   #wrapper img{
     position: relative;
@@ -240,8 +240,8 @@ ul#nav li a:active {
 /*------------------------------------------*/
 
 footer {
-  background-color: #303030;
-  color: #303030;
+  background-color: #ffffff;
+  
   font-size: 14px;
   text-align: center;
   position: relative;
@@ -249,4 +249,5 @@ footer {
 
 .copyright {
   padding: 10px;
+  color: #303030;
 }

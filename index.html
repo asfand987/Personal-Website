@@ -20,7 +20,7 @@
           <li><a id="home" href="#">HOME</a></li>
           <li><a id="about" href="#">ABOUT</a></li>
           <li><a id="project" href="#">PROJECTS</a></li>
-          <li><a id="con" href="#">CONTACT</a></li>
+          <!--<li><a id="con" href="#">CONTACT</a></li>-->
         </ul>
     </nav>
     <div class="title">
@@ -45,10 +45,13 @@
         </div>
         <div class="main">
            <h2>About Me</h2>
-           <p> I have 2 years+ experience in java, and I have good working knowledge of many other languages
+           <p> I have 2 years+ experience in java and I have good working knowledge of many other languages
                as listed down below. My github contains examples of multiple different projects in a few languages.
                I'm constantly learning new technologies to further increasing my coding abilities.
            </p>
+           <h2 class="Exp">Experience</h2>
+           <h3>Bright Network Technology Internship Experience - <span>2020</span></h3>
+           <h3>CitiBank Technology Summer Analyst - <span>2017</span></h3>
         </div> <!--Add skills tab -->
      </div>
      <div class="container">
@@ -94,11 +97,12 @@
 <section id="personProjects">
     <div class="personal">
         <h2>Personal Projects</h2>
+        <p class="instr">Click on title to be taken to project.</p>
         <div class="Covid-Tracker">
-            <a href="javascript:void(0)" onclick="openInNewTab('https://github.com/asfand987/Covid19-Tracker');" title="github">Covid19-Tracker</a>
+            <a href="javascript:void(0)" onclick="openInNewTab('https://asfand987.github.io/Covid19-Tracker');" title="github">Covid19-Tracker</a>
             <p>A Covid-19 tracker built using Javascript and React.</p>
                 <div class="BMS">
-                    <img class="middle-img" src="images\Covid19-Tracker.PNG" height="450" width="650">
+                    <img class="middle-img" onclick="openInNewTab('https://asfand987.github.io/Covid19-Tracker');" src="images\Covid19-Tracker.PNG" height="450" width="650">
                 </div>
             </div>
         <div class="Bank-Management-System">
@@ -110,7 +114,7 @@
             <p>Console based Hangman game. Built using Python.</p>
         </div>
         <div class="to-do-list">
-            <a href="javascript:void(0)"  onclick="openInNewTab('https://github.com/asfand987/To-Do-List');" title="github">To-Do-List</a>
+            <a href="javascript:void(0)"  onclick="openInNewTab('https://asfand987.github.io/To-Do-List/');" title="github">To-Do-List</a>
             <p>To-Do-List application. Built using HTML, CSS and Javascript.</p>      
         </div>
         <div class="personal website">
@@ -119,7 +123,7 @@
         </div>
       </div>
 </section>
-<section id="contact">
+<!--<section id="contact">
     <div class="contactContainer">
         <div class="title">
             <h2>Contact</h2>
@@ -130,27 +134,28 @@
         </div>
         <div>
             <label for="email">Email <span class="required">*</span></label>
-            <input type="text" value="" size="35" id="contactName" name="contactName">
+            <input type="text" value="" size="35" id="contactEmail" name="contactName">
         </div>
         <div>
             <label for="contactMessage">Message <span class="required">*</span></label>
             <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
          </div>
         <div>
-            <button class="submit">Submit</button>
+            <button id="submit">Submit</button>
             <span id="image-loader" style="display: none;">
                <img alt="" src="images/loader.gif">
             </span>
-         </div>
+        </div>
         
       </div>
-</section>
+</section> -->
 <footer>
         <ul class="copyright">
-            <li>&copy; Copyright 2020 Asfand Khan</li>
+            <li>&copy; 2020 Asfand Khan</li>
         </ul>
  </footer> <!-- Footer End-->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script language="JavaScript" type="text/javascript" src="scripts/header.js"></script>
+ <script language="JavaScript" type="text/javascript" src="scripts/form.js"></script>
 </body>
 </html>
