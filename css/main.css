@@ -1,8 +1,3 @@
-@media screen and (min-width:759px) {
-    #homePage{       
-        height: 1000px;
-    }
-}
 
 @media all and (max-width:500px) {
     ul#nav li a{
@@ -60,18 +55,24 @@
         line-height: 150%;
     }
     .skillsSection h2{
-        font: 10px/10px 'opensans-bold', sans-serif;
+        font: 20px/20px 'opensans-bold', sans-serif;
     }
     .main h2{
-        font: 15px/15px 'opensans-bold', sans-serif;
+        font: 20px/20px 'opensans-bold', sans-serif;
     }
     .main h3{
         font: 15px/15px 'opensans-bold', sans-serif;
 
     }
     .main p{
-        font: 5px/5px 'opensans-bold', sans-serif;
+        font: 15px/15px 'opensans-bold', sans-serif;
     }
+    .skillsSection {
+        width: 300px;
+        margin: 10px auto 0;
+        padding: 20px;
+    }
+    
 }
 
 
