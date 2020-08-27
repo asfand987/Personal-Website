@@ -20,15 +20,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+.main h2 {
+    font: 30px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+}
 
-
-#profile h2 {
+.skillsSection h2 {
     font: 30px/30px 'opensans-bold', sans-serif;
     color: #fff;
     margin-top: 40px;
  }
 
- #profile p {
+ .main p {
     font: 20px/20px 'opensans-bold', sans-serif;
     line-height: 30px;
     color: #7A7A7A;
@@ -38,14 +42,14 @@
     margin-bottom: 30px;
  }
 
- #profile h3 {
+ .main h3 {
     font: 'opensans-bold', sans-serif;
     padding-top: 20px;
     color: #7A7A7A;
     margin-left: 5%;
     margin-right: 5%;
  }
- #profile span {
+ .main span {
     color: #7A7A7A;
  }
 
@@ -59,13 +63,13 @@
     padding: 0;
 }
 
-.container {
+.skillsSection {
     width: 450px;
     margin: 10px auto 0;
     padding: 20px;
 }
 
-.container li {
+.skillsSection li {
     position: relative;
     list-style: none;
     margin: 50px 0;
@@ -74,7 +78,7 @@
     text-transform: uppercase;
 }
 
-.container li:before {
+.skillsSection li:before {
     content: "";
     position: absolute;
     top: calc(100% + 10px);
@@ -85,7 +89,7 @@
     border-radius: 1000px;
 }
 
-.container li:after {
+.skillsSection li:after {
     content: "";
     position: absolute;
     top: calc(100% + 10px);
@@ -99,7 +103,7 @@
     animation-fill-mode: forwards;
 }
 
-.container li.java:after {
+.skillsSection li.java:after {
     animation-name: java;
 }
 
@@ -109,7 +113,7 @@
     }
 }
 
-.container li.cpp:after {
+.skillsSection li.cpp:after {
     animation-name: cpp;
 }
 
@@ -119,7 +123,7 @@
     }
 }
 
-.container li.html:after {
+.skillsSection li.html:after {
     animation-name: html;
 }
 
@@ -129,7 +133,7 @@
     }
 }
 
-.container li.css:after {
+.skillsSection li.css:after {
     animation-name: css;
 }
 
@@ -139,7 +143,7 @@
     }
 }
 
-.container li.js:after {
+.skillsSection li.js:after {
     animation-name: js;
 }
 
@@ -149,7 +153,7 @@
     }
 }
 
-.container li.php:after {
+.skillsSection li.php:after {
     animation-name: php;
 }
 
@@ -159,7 +163,7 @@
     }
 }
 
-.container li.react:after {
+.skillsSection li.react:after {
     animation-name: react;
 }
 
@@ -169,7 +173,7 @@
     }
 }
 
-.container li.scala:after {
+.skillsSection li.scala:after {
     animation-name: scala;
 }
 
