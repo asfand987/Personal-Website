@@ -67,12 +67,17 @@
     .main p{
         font: 15px/15px 'opensans-bold', sans-serif;
     }
-    .skillsSection {
+    .skillsSection{
         width: 300px;
         margin: 10px auto 0;
         padding: 20px;
     }
-    
+    #projects h2 {
+        font: 40px/40px 'opensans-bold', sans-serif;
+    }
+    #personProjects h2 {
+        font: 40px/40px 'opensans-bold', sans-serif;
+    }
 }
 
 
