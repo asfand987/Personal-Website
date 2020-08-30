@@ -13,9 +13,8 @@
     }
     .title p{
         font-size: 12px;
-        margin-top: 0;
-        position: relative;
-        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }    
     .icons b {
         margin: 20px 20px;
@@ -66,6 +65,8 @@
     }
     .main p{
         font: 15px/15px 'opensans-bold', sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .skillsSection{
         width: 300px;
@@ -75,8 +76,16 @@
     #projects h2 {
         font: 40px/40px 'opensans-bold', sans-serif;
     }
+    #projects p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #personProjects h2 {
         font: 40px/40px 'opensans-bold', sans-serif;
+    }
+    #personProjects p{
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 

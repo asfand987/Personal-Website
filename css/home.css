@@ -14,7 +14,7 @@ time, mark, audio, video {
 /*---------------------------------------------*/
 
 header {
-    background-image: url("../images/mountain.png");
+    background-image: url("../images/wallpaper.png");
     position: relative;
     height: 1000px;
     min-height: 900px;
@@ -42,6 +42,8 @@ p {
   color: #A8A8A8;
   font: 19px/36px 'opensans-light', sans-serif;
   margin-bottom: 18px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 ul {
