@@ -36,7 +36,7 @@
 }
 
 #projects video {
-    width: 80%;
+    width: 50%;
     height: auto;
     margin-bottom: 50px;
     margin: 0 auto;
@@ -44,7 +44,7 @@
 }
 
 #projects img {
-    width: 80%;
+    width: 50%;
     height: auto;
     margin-bottom: 50px;
     outline-style: solid;
@@ -98,7 +98,7 @@
 }
 
 #personProjects img {
-    width: 80%;
+    width: 50%;
     height: auto;
     margin-bottom: 50px;
     outline-style: solid;

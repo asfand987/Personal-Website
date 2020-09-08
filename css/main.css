@@ -73,8 +73,14 @@
         margin: 10px auto 0;
         padding: 20px;
     }
-    #projects h2 {
+    #projects h2{
         font: 40px/40px 'opensans-bold', sans-serif;
+    }
+    #projects img{
+        width: 80%;
+    }
+    #projects video{
+        width: 80%;
     }
     #projects p{
         margin-left: 5%;
@@ -86,6 +92,9 @@
     #personProjects p{
         margin-left: 5%;
         margin-right: 5%;
+    }
+    #personProjects img{
+        width: 80%;
     }
 }
 
